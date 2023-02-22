@@ -649,7 +649,7 @@ li a:hover::after {
        margin: 0;
        padding: 0;
     }
-    .projects{
+    .projects, .projects-2{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -822,13 +822,9 @@ li a:hover::after {
         flex-direction: column;
     }
 
-    .projects-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .skills-container{
+        margin-bottom: 80px;
     }
-
 
     .form-container, .form-container, .contact-container{
         max-width: 80vw;
@@ -854,7 +850,7 @@ li a:hover::after {
         max-width: 50vw;
     }
 
-
+    
     .footer-container{
         margin-left: 0;
         display: flex;
@@ -896,6 +892,9 @@ li a:hover::after {
     .aboutme-container img{
         padding-right: 80px;
         border-radius: 14px;
+    }
+    .form-inputs{
+        bottom: 30vh;
     }
 }
 
@@ -949,6 +948,12 @@ li a:hover::after {
     .form-inputs{
         bottom: 25vh;
     }
+    .aboutme-container a{
+        width: 150px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
 }
 @media (max-width: 290px){
     .show{
@@ -956,5 +961,14 @@ li a:hover::after {
     }
     .menu-btn{
         left: 5vw;
+    }
+    .form-inputs{
+        bottom: 40vh;
+    }
+    .form-inputs input{
+        height: 150px;
+    }
+    .contact-container .form-header{
+        margin-top: 200px;
     }
 }
