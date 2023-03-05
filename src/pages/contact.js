@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import {FaEnvelope} from "react-icons/fa";
 import {useForm} from "react-hook-form";
-import {yupResolver} from '@hookform/resolvers/yup'
+import {yupResolver} from '@hookform/resolvers/yup';
 import * as yup from "yup";
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import emailjs from "@emailjs/browser"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
 
@@ -29,22 +28,6 @@ const Contact = () => {
 
     const onSubmit = (data) => {
         console.log(data);
-
-        const templateParams = {
-            from_name: name,
-            message: message,
-            email: email
-        }
-
-        emailjs.send("service_vsezcnp", "template_wg18hd4", templateParams, "6izJ9_CHYZDN0-eiU")
-        .then((resp) => {
-            console.log("email enviado", resp.status, resp.text)
-            setName('')
-            setEmail('')
-            setMessage('')
-        }, (error) => {
-            console.log(error)
-        })
     }
 
     return (
