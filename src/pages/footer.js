@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer-container">
             <p>Copyright © 2023 | Flávio Alexandre</p>
             <div className="return-btn">
-                <a href="#"><button href="#"><FaArrowUp /></button></a>
+                <a href="#home"><button href="#home"><FaArrowUp /></button></a>
             </div>
         </div>
     )
