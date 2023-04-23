@@ -610,8 +610,6 @@ li a:hover::after {
 }
 
 
-
-
 @media (max-width: 1600px) {
    .aboutMe p{
        font-size: 1.2rem;
@@ -1081,9 +1079,9 @@ li a:hover::after {
         bottom: -5vh;
     }
     .projects-filter button{
-        font-size: 0.7rem;
-        margin-right: 5px;
-        padding: 3px;
+        font-size: 0.6rem;
+        margin-right: 8px;
+        padding: 5px;
     }
 }
 
