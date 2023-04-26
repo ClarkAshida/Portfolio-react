@@ -25,5 +25,6 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - ReactJs
 - Sass
 - JavaScript
+- React Hook Form
 - AOS React Animation
 - EmailJs
